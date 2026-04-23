@@ -12,7 +12,7 @@ Instead of forcing a clinician to enter the same patient data multiple times or 
 
 ## Current features
 
-- Responsive web app layout designed for desktop and mobile review. [file:1]
+- Responsive web app layout designed for desktop and mobile review.
 - Unified patient intake for phenotype, risk factors, pregnancy context, and measurement-driven decision support.
 - Dual recommendation panels for American and European guideline outputs.
 - Derived calculations including body surface area, Turner aortic size index, and area-to-height style indexing.
