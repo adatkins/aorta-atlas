@@ -41,23 +41,6 @@ The prototype currently emphasizes proximal aortic disease and selected high-yie
 
 The app is currently built as a static HTML web application with embedded styling and client-side JavaScript logic. That makes it simple to upload, version, and publish through GitHub Pages, while also providing a foundation that can later be wrapped or migrated into a more app-like deployment model if needed.
 
-## Repository structure
-
-A simple project structure is recommended:
-
-- `index.html` — the main application file used by GitHub Pages.
-- `aorta-atlas-logo.png` — the uploaded logo asset used in the sidebar branding.
-- `README.md` — this project overview and roadmap document.
-
-## How to update the live site
-
-For a GitHub Pages deployment, the usual update flow is:
-
-1. Replace `index.html` with the latest version of the app.
-2. Upload any updated assets such as the logo image file.
-3. Commit the changes to the `main` branch.
-4. Wait for GitHub Pages to republish the site automatically.
-
 ## Project philosophy
 
 Aorta Atlas is meant to be clinically serious, visually calm, and easier to use than older legacy tools. The goal is not just to build another calculator, but to create a better interface for structured aortic decision support that can grow with the project over time.
