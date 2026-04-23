@@ -54,8 +54,20 @@
       color: var(--color-primary);
     }
     .brand-mark svg { width: 26px; height: 26px; }
-    .brand h1 { margin: 0; font-family: var(--font-display); font-size: var(--text-lg); line-height: 1; }
-    .brand p { margin: var(--space-1) 0 0; font-size: var(--text-xs); color: var(--color-text-muted); }
+    .brand-large {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-block: var(--space-4) var(--space-2);
+    }
+
+.sidebar-logo {
+  display: block;
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  object-fit: contain;
+}
     .nav-group { display: grid; gap: var(--space-2); }
     .nav-label { font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-text-faint); }
     .nav-link {
@@ -167,14 +179,8 @@
 <body>
   <div class="app-shell">
     <aside class="sidebar" id="sidebar">
-      <div class="brand">
-        <div class="brand-mark" aria-label="Aorta Atlas logo">
-          <img src="./aorta-atlas-logo.png" alt="Aorta Atlas logo" width="44" height="44">
-        </div>
-        <div>
-          <h1>Aorta</h1>
-          <p>Atlas</p>
-        </div>
+      <div class="brand brand-large">
+        <img src="./atlas-logo.png" alt="Aorta Atlas logo" class="sidebar-logo">
       </div>
       <div class="nav-group">
         <div class="nav-label">Workspace</div>
